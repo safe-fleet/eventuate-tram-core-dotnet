@@ -1,5 +1,5 @@
+using Microsoft.Data.SqlClient;
 using System;
-using System.Data.SqlClient;
 using System.Transactions;
 using IO.Eventuate.Tram.Consumer.Common;
 using IO.Eventuate.Tram.Database;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 
 namespace IO.Eventuate.Tram.Consumer.Database
 {
-	public class SqlTableBasedDuplicateMessageDetector : IDuplicateMessageDetector
+    public class SqlTableBasedDuplicateMessageDetector : IDuplicateMessageDetector
 	{
 		private readonly IEventuateTramDbContextProvider _dbContextProvider;
 		private readonly ILogger<SqlTableBasedDuplicateMessageDetector> _logger;
