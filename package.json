@@ -1,0 +1,24 @@
+{
+  "name": "eventuate-tram-core-dotnet",
+  "version": "0.0.0-development",
+  "description": "This document contains the release configuration for IO.Eventuate.Tram",
+  "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safe-fleet/eventuate-tram-core-dotnet.git"
+  },
+  "author": "Alejandro Perdomo <aperdomob@psl.com.co> (http://seon.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safe-fleet/eventuate-tram-core-dotnet/issues"
+  },
+  "homepage": "https://github.com/safe-fleet/eventuate-tram-core-dotnet#readme",
+  "devDependencies": {
+    "@semantic-release/exec": "^5.0.0",
+    "conventional-changelog-safe-fleet": "^1.0.0-develop.1",
+    "semantic-release": "^17.0.7"
+  }
+}
