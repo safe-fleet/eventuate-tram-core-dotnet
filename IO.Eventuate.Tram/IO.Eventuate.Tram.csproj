@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>IO.Eventuate.Tram</PackageId>
     <TargetFramework>netstandard2.1</TargetFramework>
     <VersionPrefix>0.2.1</VersionPrefix>
-    <VersionSuffix>local</VersionSuffix>
+    <RepositoryUrl>https://github.com/safe-fleet/eventuate-tram-core-dotnet</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
