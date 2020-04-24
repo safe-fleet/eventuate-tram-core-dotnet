@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Reflection;
 using IO.Eventuate.Tram.Consumer.Database;
 using IO.Eventuate.Tram.Database;
@@ -12,7 +12,7 @@ using NUnit.Framework;
 
 namespace IO.Eventuate.Tram.UnitTests.Consumer.Database
 {
-	public class SqlTableBasedDuplicateMessageDetectorTests
+    public class SqlTableBasedDuplicateMessageDetectorTests
 	{
 		private SqlTableBasedDuplicateMessageDetector _detector;
 		private EventuateTramDbContext _dbContext;
